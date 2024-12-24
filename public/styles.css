@@ -9,8 +9,13 @@ body {
 }
 
 h1 {
+  display: flex;
+  justify-content: center;
   font-size: 100px;
+  white-space: nowrap; /* Prevent wrapping */
+  margin: 5 auto;
 }
+
 
 .container {
   margin: 60% auto;
